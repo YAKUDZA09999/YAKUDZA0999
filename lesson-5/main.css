@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.container{
+    width: 1440px;
+    height: 3000px;
+    margin: auto;
+   }
+
+.container .header{
+    width: 100%;
+    background: #fff;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .header ul{
+    display: flex;
+    list-style: none;
+}
+
+.container .header ul li{
+    padding: 0px 20px;
+}
+
+.container .col1{
+    background: #f0efeb;
+    width: 100%;
+    height: 554px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .col1 .box h1{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.container .col1 .box p{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.container .col1 .box button{
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+}
+
+
+.container .col2 .box{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container .col2 .box1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.container .col2 .box1 row{
+    text-align: center;
+}
+
+.container .col2 .box1 .row h1{
+    margin-top: 20px;
+}
+
+.container .col3 .box{
+    background: #E5E5E5;
+    width: 100%;
+    height: 652px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .col3 .box .col:nth-child(2){
+    position: absolute;
+    width: 500px;
+    right: 200px;
+}
+
+.container .col3 .box .col:nth-child(1){
+    position: absolute;
+    left: 450px;
+}
+
+.container .col4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .col4 .row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .col4 .row .col:nth-child(1) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin: auto;
+}
+
+.container .col4 .row .col:nth-child(2) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: yellowgreen;
+    margin: auto;
+}
+
+.container .col4 .row .col:nth-child(3) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.container .col4 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .col4 .row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .col4 .row .col:nth-child(1) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: aqua;
+    margin: auto;
+}
+
+.container .col4 .row .col:nth-child(2) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: yellowgreen;
+    margin: auto;
+}
+
+.container .col4 .row .col:nth-child(3) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: yellow;
+    margin: auto;
+}
+
+.container .col5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .col5 .row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .col5 .row .col:nth-child(1) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: red;
+    margin: auto;
+}
+
+.container .col5 .row .col:nth-child(2) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: blue;
+    margin: auto;
+}
+
+.container .col5 .row .col:nth-child(3) .fox {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-color: orangered;
+    margin: auto;
+}
+
